@@ -1,6 +1,8 @@
 # @textlint-rule/textlint-rule-gramma
 
-textlint rule for [gramma](https://github.com/caderek/gramma)/langulagetools.
+textlint rule for [gramma](https://github.com/caderek/gramma)/[LanguageTool](https://languagetool.org/)/[GrammarBot](https://www.grammarbot.io/).
+
+This rule is frontend of [gramma](https://github.com/caderek/gramma).
 
 ## Install
 
