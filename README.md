@@ -54,6 +54,8 @@ Example, use local server.
 npm install gramma --global
 npx gramma server install
 npx gramma servert start
+# stop server
+# npx gramma servert stop
 ```
 
 
