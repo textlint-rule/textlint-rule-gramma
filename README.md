@@ -14,9 +14,9 @@ Via `.textlintrc`(Recommended)
 
 ```json
 {
-    "rules": {
-        "@textlint-rule/gramma": true
-    }
+  "rules": {
+    "@textlint-rule/gramma": true
+  }
 }
 ```
 
@@ -26,6 +26,29 @@ Via CLI
 textlint --rule @textlint-rule/gramma README.md
 ```
 
+## Options
+
+Same to [gramma's options](https://github.com/caderek/gramma#check-method)
+
+- `api_url` - url to a non-default API server
+- `api_key` - server API key
+- `dictionary` - an array of words that should be whitelisted
+- `language` - language code to specify the text language
+- `rules` - object defining which rules should be disabled
+
+Example, use local server.
+
+:memo: You need to start local API server via `gramma server start`.
+
+```json
+{
+  "rules": {
+    "@textlint-rule/gramma": {
+      "api_url": "http://localhost:8081/v2/check"
+    }
+  }
+}
+```
 
 ## Changelog
 
