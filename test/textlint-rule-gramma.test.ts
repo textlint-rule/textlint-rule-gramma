@@ -22,7 +22,7 @@ tester.run("textlint-rule-gramma", rule, {
                 {
                     message:
                         "The demonstrative ‘this’ may not agree with the plural noun ‘sentences’. Did you mean “these”?",
-                    index: 20
+                    index: 16
                 }
             ]
         },
@@ -33,12 +33,12 @@ tester.run("textlint-rule-gramma", rule, {
                 {
                     message: "After ‘It’, use the third-person verb form “is”.",
                     line: 1,
-                    column: 7
+                    column: 4
                 },
                 {
                     message: "After ‘It’, use the third-person verb form “is”.",
                     line: 3,
-                    column: 7
+                    column: 4
                 }
             ],
             options: testOptions
