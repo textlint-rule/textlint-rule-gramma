@@ -1,6 +1,6 @@
 # @textlint-rule/textlint-rule-gramma
 
-textlint rule for gramma/langulagetools.
+textlint rule for [gramma](https://github.com/caderek/gramma)/langulagetools.
 
 ## Install
 
