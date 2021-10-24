@@ -33,9 +33,9 @@ See [Releases page](https://github.com/textlint-rule/textlint-rule-gramma/releas
 
 ## Running tests
 
-Install devDependencies and Run `npm test`:
-
-    npm i -d && npm test
+    yarn install
+    yarn bootstrap
+    yarn test
 
 ## Contributing
 
