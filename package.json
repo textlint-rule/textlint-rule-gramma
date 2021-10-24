@@ -1,0 +1,67 @@
+{
+  "name": "@textlint-rule/textlint-rule-gramma",
+  "version": "1.0.0",
+  "description": "textlint rule for gramma/langulagetools.",
+  "keywords": [
+    "textlintrule"
+  ],
+  "homepage": "https://github.com/textlint-rule/textlint-rule-gramma",
+  "bugs": {
+    "url": "https://github.com/textlint-rule/textlint-rule-gramma/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textlint-rule/textlint-rule-gramma.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "main": "lib/textlint-rule-gramma.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "bootstrap": "gramma server install",
+    "pretest": "gramma server start",
+    "test": "textlint-scripts test",
+    "posttest": "gramma server stop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "prepare": "git config --local core.hooksPath .githooks",
+    "prepublishOnly": "npm run build",
+    "build": "textlint-scripts build",
+    "watch": "textlint-scripts build --watch"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "tabWidth": 4,
+    "trailingComma": "none"
+  },
+  "devDependencies": {
+    "@textlint/types": "^12.0.2",
+    "@types/node": "^16.11.4",
+    "lint-staged": "^11.2.4",
+    "prettier": "^2.4.1",
+    "textlint-scripts": "^12.0.2",
+    "textlint-tester": "^12.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "gramma": "^1.5.0",
+    "textlint-util-to-string": "^3.1.1"
+  }
+}
