@@ -23,7 +23,7 @@ const report: TextlintRuleReporter<Options> = (context, options) => {
                 report(
                     node,
                     new RuleError(match.message, {
-                        index: originalEndIndex,
+                        index: originalStatIndex,
                         fix: correctLine
                             ? // FIXME: should be suggest
                               fixer.replaceTextRange([originalStatIndex, originalEndIndex], match.replacements[0].value)
