@@ -28,7 +28,8 @@ textlint --rule @textlint-rule/gramma README.md
 
 ## Options
 
-Same to [gramma's options](https://github.com/caderek/gramma#check-method)
+Same to [gramma's options](https://github.com/caderek/gramma#check-method).
+It means that send your text to remote server like grammarbot.io or languagetool.org by default.
 
 - `api_url` - url to a non-default API server
 - `api_key` - server API key
