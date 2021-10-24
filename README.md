@@ -38,8 +38,6 @@ Same to [gramma's options](https://github.com/caderek/gramma#check-method)
 
 Example, use local server.
 
-:memo: You need to start local API server via `gramma server start`.
-
 ```json
 {
   "rules": {
@@ -49,6 +47,15 @@ Example, use local server.
   }
 }
 ```
+
+:memo: You need to start local API server by following before linting text.
+
+```bash
+npm install gramma --global
+npx gramma server install
+npx gramma servert start
+```
+
 
 ## Changelog
 
