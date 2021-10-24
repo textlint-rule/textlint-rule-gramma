@@ -1,6 +1,6 @@
 # @textlint-rule/textlint-rule-gramma
 
-textlint rule for [gramma](https://github.com/caderek/gramma)([LanguageTool](https://languagetool.org/)/[GrammarBot](https://www.grammarbot.io/)/Local API Server).
+[textlint](https://github.com/textlint/textlint) rule for [gramma](https://github.com/caderek/gramma)([LanguageTool](https://languagetool.org/)/[GrammarBot](https://www.grammarbot.io/)/Local API Server).
 
 This rule is frontend of [gramma](https://github.com/caderek/gramma).
 
