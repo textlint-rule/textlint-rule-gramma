@@ -49,8 +49,8 @@
   },
   "devDependencies": {
     "@textlint/types": "^12.0.2",
-    "@types/node": "^16.11.4",
-    "lint-staged": "^11.2.4",
+    "@types/node": "^16.11.7",
+    "lint-staged": "^11.2.6",
     "prettier": "^2.4.1",
     "textlint-scripts": "^12.0.2",
     "textlint-tester": "^12.0.2",
@@ -61,7 +61,7 @@
     "access": "public"
   },
   "dependencies": {
-    "gramma": "^1.5.0",
+    "gramma": "^1.6.0",
     "textlint-util-to-string": "^3.1.1"
   }
 }
